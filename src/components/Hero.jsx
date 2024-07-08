@@ -1,12 +1,14 @@
 function Hero() {
     return (
         <div className="flex flex-col py-2">
-            <img className="px-3" src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Amar/1-FZ-herader_750x200.gif" alt="fumzone gif" />
+            <img className="px-3" src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Fathima/FZ_750x350_mob_header.jpg" alt="fumzone gif" />
             <div className="w-full flex flex-row items-center justify-evenly py-5 px-0">
                 <div className="w-full relative flex items-center justify-center  px-[20px] py-[15px] border-b-4 border-black">Play now</div>
-                <div className="w-full relative flex items-center justify-center  px-[20px] py-[15px]">Lucky Draw Winners</div>
+                <div className="w-full relative flex items-center justify-center  px-[20px] py-[15px]">
+                    <a href="https://www.amazon.in/b?node=11965679031">Lucky Draw Winners</a>
+                </div>
             </div>
-            <h2 className="px-3">You played, you won | Redeem your rewards</h2>
+            {/* <h2 className="px-3">You played, you won | Redeem your rewards</h2>
             <div className="w-full overflow-x-auto py-4 px-2 scroll-smooth whitespace-nowrap hide-scrollbar">
                 <div className="flex flex-row space-x-4 ">
                     <div className="flex flex-row items-center justify-between rounded-md border-[1px] border-[#d5d9d9] overflow-hidden min-w-[310px] m-0">
@@ -33,7 +35,31 @@ function Hero() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
+            <a href="https://www.amazon.in/b/ref=mh_s9_cg_appgb_1a1_w?node=97741747031&pf_rd_m=AT95IG9ONZD7S&pf_rd_s=mobile-hybrid-4&pf_rd_r=T98JMYMK1KTNAWZ58R3M&pf_rd_t=30901&pf_rd_p=89dde2fd-5e5f-4a6d-b7d7-8bdda6e1ff2a&pf_rd_i=14351766031">
+                <img className="px-3 pt-2" src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Fathima/PD/2-FZ_PD_games_02.gif" alt="" />
+            </a>
+            <a href="https://www.amazon.in/b/ref=mh_s9_cg_appgb_2a1_w?node=96380089031&pf_rd_m=AT95IG9ONZD7S&pf_rd_s=mobile-hybrid-4&pf_rd_r=T98JMYMK1KTNAWZ58R3M&pf_rd_t=30901&pf_rd_p=89dde2fd-5e5f-4a6d-b7d7-8bdda6e1ff2a&pf_rd_i=14351766031">
+                <img className="px-3 pb-3" src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Fathima/PD/2-FZ_PD_games_03.gif" alt="" />
+
+            </a>
+            <a href="https://www.amazon.in/game/gXNC7S8/ref=mh_s9_cg_appgb_1a1_w?viewType=fullPage&pf_rd_m=AT95IG9ONZD7S&pf_rd_s=mobile-hybrid-5&pf_rd_r=T98JMYMK1KTNAWZ58R3M&pf_rd_t=30901&pf_rd_p=caf3a5c7-0ce7-4f8c-9bde-5a57c49f5104&pf_rd_i=14351766031">
+                <img className="px-3 " src="https://images-eu.ssl-images-amazon.com/images/G/31/LaptopsPD24_Spin-the-Wheel/CEPC_FZ_STW_FZ_banner_750x350.jpg" alt="" />
+
+            </a>
+            <a href="https://www.amazon.in/game/gOJQKZU/ref=mh_s9_cg_appgb_2a1_w?pf_rd_m=AT95IG9ONZD7S&pf_rd_s=mobile-hybrid-5&pf_rd_r=T98JMYMK1KTNAWZ58R3M&pf_rd_t=30901&pf_rd_p=caf3a5c7-0ce7-4f8c-9bde-5a57c49f5104&pf_rd_i=14351766031">
+                <img className="px-3 " src="https://images-eu.ssl-images-amazon.com/images/G/31/digital/music/merch/India/2020/Weekly/gw/MLP/pd24/gamex/PD24_FZ_Quiz_FZ_So_Far_24_Music_750x350.jpg" alt="" />
+
+            </a>
+            <a href="https://www.amazon.in/game/g2IH0YY/ref=mh_s9_cg_appgb_3a1_w?pf_rd_m=AT95IG9ONZD7S&pf_rd_s=mobile-hybrid-5&pf_rd_r=T98JMYMK1KTNAWZ58R3M&pf_rd_t=30901&pf_rd_p=caf3a5c7-0ce7-4f8c-9bde-5a57c49f5104&pf_rd_i=14351766031">
+                <img className="px-3 pb-2" src="https://images-eu.ssl-images-amazon.com/images/G/31/digital/music/merch/India/2020/Weekly/gw/MLP/pd24/gamex/PD24_FZ_Quiz_Desi_Vibes_banner-750x350.jpg" alt="" />
+
+            </a>
+            <a href="https://www.amazon.in/b/ref=mh_s9_cg_appgb_1a1_w?node=96380088031&pf_rd_m=AT95IG9ONZD7S&pf_rd_s=mobile-hybrid-6&pf_rd_r=T98JMYMK1KTNAWZ58R3M&pf_rd_t=30901&pf_rd_p=8fb793df-2eef-4e05-bda2-b204d9ed7620&pf_rd_i=14351766031">
+                <img className="px-3 py-3 pb-7" src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Amritesh/July24/N2GL/2-N2GL-coupons_STW_750x350_1.jpg" alt="" />
+
+            </a>
+
             <div className="relative flex items-center justify-center">
                 <img className="w-full object-cover" src="https://m.media-amazon.com/images/G/31/IN_App_Engagement/gamex/streaks/streakWidgetBackgroundImage.png" alt="daily challenge" />
                 <div className="absolute w-full flex flex-col justify-center px-4 py-3 bg-opacity-75">
@@ -85,28 +111,34 @@ function Hero() {
             </a>
 
             <div className="flex flex-col p-3 items-center justify-center">
-                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Yamini/qc_19th_june24/FZ_Week25-QC_01.jpg" alt="spin head" />
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Amritesh/July24/QC/FZ_QC_01.gif" alt="spin head" />
                 <div className="flex flex-row w-full items-center justify-center">
-                    <a className="w-[50%]" href="https://www.amazon.in/rewards/checkoutCoupons?uuid=NX9GWE" >
-                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Yamini/qc_19th_june24/FZ_Week25-QC_02.gif" alt="1" />
+                    <a className="w-[50%]" href="https://www.amazon.in/game/g9ZW0D0/ref=mh_s9_cg_appgb_2a1_w?viewType=fullPage&pf_rd_m=AT95IG9ONZD7S&pf_rd_s=mobile-hybrid-9&pf_rd_r=G2QAM91CFYRT02HXCM75&pf_rd_t=30901&pf_rd_p=2fbda27a-2776-4aa8-b36e-4b442d16a3e1&pf_rd_i=14351766031" >
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Amritesh/July24/QC/FZ_QC_02.gif" alt="1" />
 
                     </a>
-                    <a className="w-[50%]" href="https://www.amazon.in/rewards/checkoutCoupons?uuid=LNB376" >
-                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Yamini/qc_19th_june24/FZ_Week25-QC_03.gif" alt="2" />
+                    <a className="w-[50%]" href="https://www.amazon.in/game/gBTT0BL/ref=mh_s9_cg_appgb_2b1_w?viewType=fullPage&pf_rd_m=AT95IG9ONZD7S&pf_rd_s=mobile-hybrid-9&pf_rd_r=G2QAM91CFYRT02HXCM75&pf_rd_t=30901&pf_rd_p=2fbda27a-2776-4aa8-b36e-4b442d16a3e1&pf_rd_i=14351766031" >
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Amritesh/July24/QC/FZ_QC_03.gif" alt="2" />
 
                     </a>
                 </div>
                 <div className="flex flex-row w-full items-center justify-center">
-                    <a className="w-[50%]" href="https://www.amazon.in/rewards/checkoutCoupons?uuid=NX9GWE" >
-                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Yamini/qc_19thjune/FZ_Week25-QC_04.jpg" alt="1" />
+                    <a className="w-[50%]" href="https://www.amazon.in/game/gV3XHE4/ref=fz_gblive_slot_lp_gV3XHE4/ref=mh_s9_cg_appgb_2c1_w?pf_rd_m=AT95IG9ONZD7S&pf_rd_s=mobile-hybrid-9&pf_rd_r=G2QAM91CFYRT02HXCM75&pf_rd_t=30901&pf_rd_p=2fbda27a-2776-4aa8-b36e-4b442d16a3e1&pf_rd_i=14351766031" >
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Amritesh/July24/QC/FZ_QC_04.gif" alt="1" />
                     </a>
-                    <a className="w-[50%]" href="https://www.amazon.in/rewards/checkoutCoupons?uuid=LNB376" >
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Yamini/qc_19thjune/FZ_Week25-QC_05.jpg" alt="2" />
+                    <a className="w-[50%]" href="https://www.amazon.in/game/gYFXD8J/ref=app_gblive_quizspl_QC_gYFXD8J/ref=mh_s9_cg_appgb_2d1_w?pf_rd_m=AT95IG9ONZD7S&pf_rd_s=mobile-hybrid-9&pf_rd_r=G2QAM91CFYRT02HXCM75&pf_rd_t=30901&pf_rd_p=2fbda27a-2776-4aa8-b36e-4b442d16a3e1&pf_rd_i=14351766031" >
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Amritesh/July24/QC/FZ_QC_05.gif" alt="2" />
                     </a>
                 </div>
             </div>
-            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/WLA/2024/GAMEX/SPIN_WIN/Ptron/ZENBUDS_PRO1/D132814684_IN_WLA_Ptron_LaunchDesignSIM_750x350.jpg" alt="a" className="py-2 px-3" />
+            <a href="https://www.amazon.in/game/gQJWBBL/ref=mh_s9_cg_appgb_1a1_w?pf_rd_m=AT95IG9ONZD7S&pf_rd_s=mobile-hybrid-11&pf_rd_r=G2QAM91CFYRT02HXCM75&pf_rd_t=30901&pf_rd_p=8793ecdd-9b5a-4a95-b038-462db5d33c25&pf_rd_i=14351766031">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/NewPl/Page/Creative/iQOOZ9Lite/Spin/D142643375_iQOO-Z9-Lite-5G-Spin_Win_Design-SIM_BAU_750x350.jpg" alt="a" className="py-2 px-3" />
+
+            </a>
+            <a href="https://www.amazon.in/game/gFVGKFO/ref=mh_s9_cg_appgb_2a1_w?viewType=fullPage&pf_rd_m=AT95IG9ONZD7S&pf_rd_s=mobile-hybrid-11&pf_rd_r=G2QAM91CFYRT02HXCM75&pf_rd_t=30901&pf_rd_p=8793ecdd-9b5a-4a95-b038-462db5d33c25&pf_rd_i=14351766031">
             <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/June24/LLPage/gamex/_750x350.jpg" alt="b" className="py-2 px-3" />
+
+            </a>
             <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Amritesh/Supradyn_Play_and_Win_copy_Rs_80.jpg" alt="c" className="py-2 px-3" />
             <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Wireless/tdhruvko/Vivo/XFold3/Gamex/D134821330_IN_WLD_vivo_XFold3Pro_launch_Gamex_750x350.jpg" alt="d" className="py-2 px-3" />
             <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IN_Devices/BAU_GameX/With_Play_Now_750x350.png" alt="e" className="py-2 px-3" />
@@ -119,13 +151,20 @@ function Hero() {
             <h2 className="text-left px-3 text-[22px] font-semibold">New games every day</h2>
             <div className="w-full overflow-x-auto py-2 scroll-smooth whitespace-nowrap hide-scrollbar">
                 <div className="flex flex-row space-x-4 px-3 w-full">
+                <a href="https://www.amazon.in/game/g60L73E/ref=QAHzEditorial_en_IN_1?pf_rd_r=G2QAM91CFYRT02HXCM75&pf_rd_p=1d3fc86c-8044-49ab-a605-a06febe5e111&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=mobile-hybrid-17&pf_rd_t=30901&pf_rd_i=14351766031&viewType=fullPage">
+                <div className="flex flex-col items-center ">
+                        <img className="min-w-[260px] h-auto mb-1" src="https://m.media-amazon.com/images/G/31/img23/AmazonPay/NovFlip/JP1-23_FZ_STW-slider_1400x800._SY700_QL85_.jpg" alt="each-1" />
+                        <h4 className="text-[15px]">Win exclusive coupon</h4>
+                    </div>
+                </a>
+                    
                     <div className="flex flex-col items-center ">
                         <img className="min-w-[260px] h-auto mb-1" src="https://m.media-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Fathima/DQT/Summer_DQT_slider_1400x800-CTA._SY700_QL85_.jpg" alt="each-1" />
                         <h4 className="text-[15px]">Win exiting prizes everyday</h4>
                     </div>
                     <div className="flex flex-col items-center pr-3">
                         <img className="min-w-[260px] h-auto mb-1" src="https://m.media-amazon.com/images/G/31/img17/Mobile/Engagement/ASMs/Amritesh/Summer_CTA_daily-STW_slider_1400x800._SY700_QL85_.jpg" alt="each-1" />
-                        <h4 className="text-[15px]">Win exiting prizes everyday</h4>
+                        <h4 className="text-[15px]">Win prizes worth upto &#8377;1,000</h4>
                     </div>
 
                 </div>
